@@ -1,0 +1,103 @@
+{
+  "generated_at_utc": "2026-10-11T14:15:05.277923+00:00",
+  "source_manifest": {
+    "downloaded_at_utc": "2026-10-11T14:12:15.932324+00:00",
+    "seasons": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "season_type": "REG",
+    "position": "WR",
+    "nflreadpy_version": "0.1.5",
+    "source": "https://github.com/nflverse/nflverse-data",
+    "sha256": {
+      "player_stats": "fb6c9f0e8b59404b7c9923c006974a0785a5da0e49258fd43f174928817b9e78",
+      "schedules": "4d66cc7165d7ee30ea24200cc70ba01e85cda1c197aeda9663518059e3ac9c4e",
+      "players": "c2b50c3a665a7bd78da186583361cacce04e32501af6b142f886a3b6db5afe1e"
+    },
+    "summary": {
+      "players": 436,
+      "games": 1359,
+      "receiver_game_records": 10432,
+      "records_per_season": {
+        "2022": 2387,
+        "2023": 2476,
+        "2024": 2441,
+        "2025": 2511,
+        "2026": 617
+      }
+    }
+  },
+  "frozen_projections_sha256": "0c5cfdad6f63402bce7054a24115f782ab2bf86299b30fed58da12188cf4974e",
+  "model": "mean_last_8_recorded_games_ppr_v1",
+  "scoring": "PPR",
+  "outcome_source": "nflverse; not user league scores",
+  "overall": {
+    "comparisons": 20,
+    "mae": 6.913,
+    "rmse": 8.955,
+    "bias_projected_minus_actual": -1.936
+  },
+  "by_week": {
+    "1": {
+      "comparisons": 5,
+      "mae": 7.424,
+      "rmse": 8.501,
+      "bias_projected_minus_actual": 0.292
+    },
+    "2": {
+      "comparisons": 5,
+      "mae": 9.622,
+      "rmse": 12.324,
+      "bias_projected_minus_actual": -3.994
+    },
+    "3": {
+      "comparisons": 5,
+      "mae": 6.62,
+      "rmse": 8.369,
+      "bias_projected_minus_actual": -6.204
+    },
+    "4": {
+      "comparisons": 5,
+      "mae": 3.986,
+      "rmse": 5.156,
+      "bias_projected_minus_actual": 2.162
+    }
+  },
+  "by_player": {
+    "Matthew Golden": {
+      "comparisons": 4,
+      "mae": 9.558,
+      "rmse": 10.706,
+      "bias_projected_minus_actual": -9.558
+    },
+    "Davante Adams": {
+      "comparisons": 4,
+      "mae": 12.535,
+      "rmse": 14.664,
+      "bias_projected_minus_actual": -1.735
+    },
+    "Emeka Egbuka": {
+      "comparisons": 4,
+      "mae": 4.328,
+      "rmse": 4.356,
+      "bias_projected_minus_actual": -2.323
+    },
+    "Luther Burden III": {
+      "comparisons": 4,
+      "mae": 4.253,
+      "rmse": 5.04,
+      "bias_projected_minus_actual": 0.173
+    },
+    "Marvin Harrison Jr.": {
+      "comparisons": 4,
+      "mae": 3.892,
+      "rmse": 5.191,
+      "bias_projected_minus_actual": 3.763
+    }
+  },
+  "missing_actual_rows": 0
+}

@@ -1,0 +1,25 @@
+{
+  "built_at_utc": "2026-10-11T14:42:03.238354+00:00",
+  "coverage": {
+    "appearances": 11616,
+    "zero_event_active_games": 1184,
+    "snap_share_coverage": 0.9603133608815427,
+    "drops_coverage": 0.7713498622589532
+  },
+  "sha256": {
+    "advanced.parquet": "81d03273652ee66a5f0a32c46a0a2224f9f2716056763c648e17e2d0a3393587",
+    "snaps.parquet": "b81e77aba64494e895767877b8eb5e7a78b74bfa464dca39af7a1f7a426c42ec",
+    "passing_plays_2022.parquet": "d2a2c7b064cbef945a4430fa7f7322933d08f601645ee116db99260e7408fb79",
+    "passing_plays_2023.parquet": "4ee3201231c26e25d20c98c33af41d240ec729231cedb34967ee3a29a29b10c3",
+    "passing_plays_2024.parquet": "f7be121755640996e6c56493769cab8214329c90ae73c9ccd4efa4b2fcd98b3b",
+    "passing_plays_2025.parquet": "dec4775b76081852d3ccccffd77459bbdc929964367cd4077f1fa2c18dc0ec97",
+    "passing_plays_2026.parquet": "f326a586b29f4d39349fc27c39a9621eb7db98bd88021896c88c53f76b49f949"
+  },
+  "sources": [
+    "https://github.com/nflverse/nflverse-data",
+    "https://nflreadpy.nflverse.com/api/load_functions/"
+  ],
+  "routes_status": "Not available in selected weekly datasets. Snap participation is a separate metric.",
+  "weather_status": "No archived pregame forecasts imported. Actual game weather is excluded.",
+  "injuries_status": "No verified pregame injury snapshots imported."
+}

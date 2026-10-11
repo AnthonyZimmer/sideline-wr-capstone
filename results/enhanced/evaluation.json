@@ -1,0 +1,207 @@
+{
+  "model": "random_forest_component_model_v1",
+  "built_at_utc": "2026-10-11T14:45:34.472293+00:00",
+  "training_seasons": [
+    2023,
+    2024
+  ],
+  "training_rows": 5168,
+  "features": [
+    "targets_3",
+    "targets_8",
+    "target_share_3",
+    "target_share_8",
+    "snap_share_3",
+    "snap_share_8",
+    "catch_rate_8",
+    "yards_per_target_8",
+    "air_yards_3",
+    "air_share_8",
+    "yac_per_catch_8",
+    "drop_rate_8",
+    "red_zone_targets_3",
+    "red_zone_share_8",
+    "rec_tds_8",
+    "ppr_3",
+    "ppr_8",
+    "target_trend",
+    "snap_trend",
+    "def_wr_ppr_8",
+    "def_pass_epa_8",
+    "history_games",
+    "current_season_games",
+    "home"
+  ],
+  "parameters": {
+    "trees": 240,
+    "min_leaf": 15,
+    "max_depth": 12,
+    "random_seed": 440
+  },
+  "validation_absolute_residual_p80": 6.752000000000005,
+  "evaluations": {
+    "2025_validation": {
+      "enhanced": {
+        "comparisons": 2585,
+        "mae": 4.218,
+        "rmse": 5.764,
+        "bias_projected_minus_actual": 0.49
+      },
+      "active_game_average_baseline": {
+        "comparisons": 2585,
+        "mae": 4.207,
+        "rmse": 5.921,
+        "bias_projected_minus_actual": 0.39
+      }
+    },
+    "2026_weeks_1_4": {
+      "enhanced": {
+        "comparisons": 560,
+        "mae": 4.504,
+        "rmse": 6.351,
+        "bias_projected_minus_actual": -0.284
+      },
+      "active_game_average_baseline": {
+        "comparisons": 560,
+        "mae": 4.539,
+        "rmse": 6.514,
+        "bias_projected_minus_actual": -0.304
+      }
+    },
+    "user_roster_2026_weeks_1_4": {
+      "enhanced": {
+        "comparisons": 20,
+        "mae": 6.301,
+        "rmse": 8.592,
+        "bias_projected_minus_actual": -2.237
+      },
+      "active_game_average_baseline": {
+        "comparisons": 20,
+        "mae": 6.914,
+        "rmse": 8.955,
+        "bias_projected_minus_actual": -1.936
+      }
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "ppr_8",
+      "importance": 0.3291583047137251
+    },
+    {
+      "feature": "target_share_8",
+      "importance": 0.20483133809717224
+    },
+    {
+      "feature": "target_share_3",
+      "importance": 0.1057821235351664
+    },
+    {
+      "feature": "targets_8",
+      "importance": 0.08692047039574524
+    },
+    {
+      "feature": "ppr_3",
+      "importance": 0.02278041784170877
+    },
+    {
+      "feature": "yards_per_target_8",
+      "importance": 0.02269823717931813
+    },
+    {
+      "feature": "air_share_8",
+      "importance": 0.020634470770340096
+    },
+    {
+      "feature": "def_wr_ppr_8",
+      "importance": 0.020517727898508586
+    },
+    {
+      "feature": "snap_share_3",
+      "importance": 0.018496325840511148
+    },
+    {
+      "feature": "targets_3",
+      "importance": 0.017901795123081536
+    },
+    {
+      "feature": "def_pass_epa_8",
+      "importance": 0.017381687044216696
+    },
+    {
+      "feature": "yac_per_catch_8",
+      "importance": 0.017163191754919104
+    },
+    {
+      "feature": "snap_trend",
+      "importance": 0.01560819577401252
+    },
+    {
+      "feature": "snap_share_8",
+      "importance": 0.014186200235298417
+    },
+    {
+      "feature": "drop_rate_8",
+      "importance": 0.013695903548253561
+    },
+    {
+      "feature": "air_yards_3",
+      "importance": 0.013556436903961577
+    },
+    {
+      "feature": "catch_rate_8",
+      "importance": 0.013109317895998175
+    },
+    {
+      "feature": "target_trend",
+      "importance": 0.012605721331620504
+    },
+    {
+      "feature": "red_zone_share_8",
+      "importance": 0.012479771957288097
+    },
+    {
+      "feature": "current_season_games",
+      "importance": 0.00800341945007601
+    },
+    {
+      "feature": "rec_tds_8",
+      "importance": 0.005301597880683094
+    },
+    {
+      "feature": "red_zone_targets_3",
+      "importance": 0.003825829945804186
+    },
+    {
+      "feature": "home",
+      "importance": 0.0027047061081057625
+    },
+    {
+      "feature": "history_games",
+      "importance": 0.0006371843728463693
+    },
+    {
+      "feature": "missingindicator_snap_trend",
+      "importance": 1.5086972064222687e-05
+    },
+    {
+      "feature": "missingindicator_snap_share_3",
+      "importance": 4.537429574523669e-06
+    },
+    {
+      "feature": "missingindicator_snap_share_8",
+      "importance": 0.0
+    },
+    {
+      "feature": "missingindicator_drop_rate_8",
+      "importance": 0.0
+    }
+  ],
+  "limits": [
+    "Conditional on active/recorded games; inactive players are not forecast.",
+    "2026 outcomes were previously inspected, so this is a diagnostic replay, not an untouched test.",
+    "Historical modern snapshots can contain later stat corrections.",
+    "Game roster team is assumed known before kickoff for retrospective evaluation.",
+    "Routes, archived weather forecasts, and pregame injury feeds are not integrated."
+  ]
+}

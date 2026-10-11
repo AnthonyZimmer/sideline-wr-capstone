@@ -1,0 +1,36 @@
+{
+  "outcome_source": "user-confirmed league scores",
+  "rows": [
+    {
+      "player": "Matthew Golden",
+      "projected_ppr": 3.87,
+      "actual_ppr": 15.5
+    },
+    {
+      "player": "Davante Adams",
+      "projected_ppr": 13.19,
+      "actual_ppr": 5.6
+    },
+    {
+      "player": "Emeka Egbuka",
+      "projected_ppr": 6.28,
+      "actual_ppr": 11.3
+    },
+    {
+      "player": "Luther Burden III",
+      "projected_ppr": 9.57,
+      "actual_ppr": 9.5
+    },
+    {
+      "player": "Marvin Harrison Jr.",
+      "projected_ppr": 7.27,
+      "actual_ppr": 4.3
+    }
+  ],
+  "metrics": {
+    "comparisons": 5,
+    "mae": 5.456,
+    "rmse": 6.736,
+    "bias_projected_minus_actual": -1.204
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "outcome_source": "user league scores",
+  "scoring": "PPR",
+  "overall": {
+    "comparisons": 5,
+    "mae": 7.424,
+    "rmse": 8.501,
+    "bias_projected_minus_actual": 0.292
+  },
+  "missing_scores": 15,
+  "by_week": {
+    "1": {
+      "comparisons": 5,
+      "mae": 7.424,
+      "rmse": 8.501,
+      "bias_projected_minus_actual": 0.292
+    },
+    "2": {
+      "comparisons": 0
+    },
+    "3": {
+      "comparisons": 0
+    },
+    "4": {
+      "comparisons": 0
+    }
+  }
+}
